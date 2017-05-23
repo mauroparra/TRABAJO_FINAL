@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurante</title>
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	  <script src="consulta.js"></script>
+
+</head>
+<body background="fondo.jpg"> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Restaurante</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="registrar_usuario.html">Registrar Usuarios</a></li>
+      <li><a href="producto.html">Productos</a></li>
+      <li><a href="pedido.html">Realizar Pedidos</a></li>
+      <li><a href="Consultar.html">Consultar Pedidos</a></li>
+    </ul>
+  </div>
+</nav>
+<center><h1><font face="Comic Sans MS" color="" >Consultar Pedidos</h1>
+<font size="4">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cedula">Cedula</label>  
+  <div class="col-md-4">
+  <input id="cedula" name="cedula" type="text" placeholder="cedula" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Consultar"></label>
+  <div class="col-md-4">
+    <button id="Consultar" name="Consultar" class="btn btn-danger">Consultar</button>
+  </div>
+</div>
+
+
+<!--
+<font face="Comic Sans MS" color="" >-->
+<div class="row">
+  <div class="col-sm-12">
+    <div id="resultado"></div>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</center>
+</body>
+</html>

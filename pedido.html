@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurante</title>
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	  <script src="pedido.js"></script>
+
+</head>
+<body>
+<body background="fondo.jpg"> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Restaurante</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="registrar_usuario.html">Registrar Usuarios</a></li>
+      <li><a href="producto.html">Productos</a></li>
+      <li><a href="pedido.html">Realizar Pedidos</a></li>
+      <li><a href="Consultar.html">Consultar Pedidos</a></li>
+    </ul>
+  </div>
+</nav>
+<center><h1><font face="Comic Sans MS" color="" >Realizar Pedidos</h1>
+<font size="4">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Cedula">Cedula</label>  
+  <div class="col-md-4">
+  <input id="Cedula" name="Cedula" type="text" placeholder="Cedula" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+
+<div class="form-group"> <!-- tipo de equipo -->
+        <label class="col-md-4 control-label" for="producto">Productos</label>
+        <div class="col-md-4">
+        <select class="form-control" id="producto">
+            
+            <option value=""></option>
+            <option value="Hamburguesa especial">Hamburguesa especial</option>
+            <option value="Hamburguesa Super">Hamburguesa Super</option>
+            <option value="Hamburguesa Combo">Hamburguesa Combo</option>
+            <option value="Perro especial">Perro especial</option>
+            <option value="Perro Super">Perro Super</option>
+            <option value="Perro Combo">Perro Combo</option>
+            <option value="Pizza especial">Pizza especial</option>
+            <option value="Pizza Super">Pizza Super</option>
+            <option value="Pizza Combo">Pizza Combo</option>
+            <option value="Arepa especial">Arepa especial</option>
+            <option value="Arepa Super">Arepa Super</option>
+            <option value="Arepa Combo">Arepa Combo</option>
+                        
+
+        </select>                    
+    </div>
+</div>
+
+
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="cantidad">Cantidad</label>  
+  <div class="col-md-4">
+  <input id="cantidad" name="cantidad" type="text" placeholder="cantidad" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+
+
+<div class="form-group"> <!-- tipo de equipo -->
+        <label class="col-md-4 control-label" for="estado">Estado</label>
+        <div class="col-md-4">
+        <select class="form-control" id="estado">
+            
+            <option value=""></option>
+            <option value="Registrado">Registrado</option>
+            <option value="eNTREGADO">Entregado</option>
+            
+
+        </select>                    
+    </div>
+</div>
+
+
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="comprar"></label>
+  <div class="col-md-4">
+    <button type="button" id="comprar" name="comprar" class="btn btn-danger">comprar</button>
+  </div>
+</div>
+</form>
+</body>
+</html>
